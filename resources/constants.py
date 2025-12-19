@@ -2,6 +2,9 @@ import os
 
 # BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 # BASE_PATH = os.path.join(BASE_PATH, os.pardir)
+# 1. Define the Project Root
+BASE_PATH = os.path.dirname(os.path.abspath(__file__)) # Inside 'resources'
+PROJECT_ROOT = os.path.join(BASE_PATH, os.pardir)     # The main project folder
 
 PLACEHOLDER_IMAGE_NAME = "placeholder.jpg"
 

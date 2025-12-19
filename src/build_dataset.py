@@ -12,7 +12,7 @@ from resources.constants import *
 
 # Provided to the user for the sake of being thorough, but useless without the database connection settings.
 
-def get_dataframes(load_local_dataframes=False, include_tag_data=True):
+def get_dataframes(load_local_dataframes=True, include_tag_data=True):
     if not load_local_dataframes:
         if not os.path.isdir(DATA_SAVE_PATH):
             os.mkdir(DATA_SAVE_PATH)
