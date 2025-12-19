@@ -1,0 +1,22 @@
+# Environments
+fashionEnv/
+env/
+venv/
+anaconda3/
+
+# Large Data & Images (The 50k culprits)
+**/images/
+*.jpg
+*.png
+*.jpeg
+*.npy
+*.pkl
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
